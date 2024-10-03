@@ -10,7 +10,7 @@ def pascal_triangle(n):
     """
     response = []
     if n > 0:
-    	for i in range(n):
+        for i in range(n):
             row = []
             for j in range(i + 1):
                 if j == 0 or j == i:
