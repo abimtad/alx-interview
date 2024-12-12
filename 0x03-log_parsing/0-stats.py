@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 '''A script for parsing HTTP request logs.'''
+import utils.transport
+import utils.session
 import re
 
 
